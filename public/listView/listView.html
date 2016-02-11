@@ -1,0 +1,15 @@
+<p>List all books</p>
+<table>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Author</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="book in books">
+			<td>{{ book.title }}</td>
+			<td>{{ book.author }}</td>
+		</tr>
+	</tbody>
+</table>

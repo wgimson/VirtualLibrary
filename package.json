@@ -1,0 +1,26 @@
+{
+  "name": "virtual-library",
+  "version": "0.0.0",
+  "description": "A virtual library service with an Angular front end",
+  "main": "server.js",
+  "author": "William",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
+  },
+  "engines": {
+    "node": "^0.12.7"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  }
+}
