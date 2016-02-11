@@ -1,4 +1,5 @@
-/node_modules
+/node_module
+/public/angular-seed-master/node_modules
 npm-debug.log
 .DS_Store
 /*.env
